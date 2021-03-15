@@ -1,0 +1,9 @@
+{block content}
+<div id="banner">
+    <h1 n:block=title>Kalkulačka</h1>
+</div>
+
+<div id="content">
+    <h3 n:ifset=$result>Výsledek je: {$result}</h3>
+    {control calculatorForm}
+</div>

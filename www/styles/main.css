@@ -1,0 +1,265 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+nav .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.container .info {
+  color: blue;
+}
+
+.container .success {
+  color: green;
+}
+
+.container .fail {
+  color: darkred;
+}
+
+.container .divCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .divCenter div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .divCenter div .article {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 20px 50px;
+  padding: 10px 0;
+  background-color: #c7dcf0;
+  border: 1px solid darkslategrey;
+}
+
+.container .divCenter div .article .noArticle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .divCenter div .article .deleteForm {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.container .divCenter div .article .deleteForm .button {
+  background-color: lightcoral;
+}
+
+.container .divCenter div .article .deleteForm .button:hover, .container .divCenter div .article .deleteForm .button:focus {
+  color: white;
+  background-color: darkred;
+}
+
+.container .divCenter div .article .editBox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .divCenter div .article .editBox .button a {
+  color: darkslategrey;
+}
+
+.container .divCenter div .article .editBox .button a:hover, .container .divCenter div .article .editBox .button a:focus {
+  color: white;
+}
+
+.container .divCenter div .article .editBox .button .delete {
+  background-color: lightcoral;
+}
+
+.container .divCenter div .article .editBox .button .delete:hover, .container .divCenter div .article .editBox .button .delete:focus {
+  background-color: darkred;
+}
+
+.container .divCenter div .article .editBox .button .edit {
+  background-color: lightblue;
+}
+
+.container .divCenter div .article .editBox .button .edit:hover, .container .divCenter div .article .editBox .button .edit:focus {
+  background-color: darkcyan;
+}
+
+.container .divCenter div .article .titleBox {
+  float: left;
+  padding: 0 10px;
+  color: rgba(47, 79, 79, 0.534);
+}
+
+.container .divCenter div .article .title {
+  float: left;
+  background-color: darkslategrey;
+  color: white;
+  padding: 5px 20px;
+}
+
+.container .divCenter div .article .content {
+  padding: 5px 40px;
+}
+
+.container .divCenter div .article .description {
+  width: 100%;
+  color: white;
+  background-color: darkslategrey;
+  padding: 5px 20px;
+}
+
+.container .divCenter div a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.container .divCenter div a:hover, .container .divCenter div a:focus {
+  color: darkslategrey;
+}
+
+.container .divCenter .button a {
+  background-color: darkslategrey;
+}
+
+.container .divCenter .button a:hover, .container .divCenter .button a:focus {
+  color: darkslategrey;
+  background-color: #7bb4b4;
+}
+
+.container .form form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .form form table tbody tr th label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .form form table tbody tr td input,
+.container .form form table tbody tr td textarea {
+  margin: 5px 0;
+  color: white;
+  background: darkslategrey;
+  padding: 0 10px;
+}
+
+.container .form form table tbody tr td .button {
+  float: right;
+  background: #066cca;
+  padding: 5px 10px;
+}
+
+.container .form form table tbody tr td .button:focus, .container .form form table tbody tr td .button:hover {
+  background: #074580;
+}
+
+label {
+  float: right;
+  margin: 0 10px;
+}
+
+.button a {
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  -webkit-box-shadow: 2px 2px 4px 2px rgba(16, 19, 29, 0.25);
+  box-shadow: 2px 2px 4px 2px rgba(16, 19, 29, 0.25);
+}
+
+.button a:hover, .button a:focus {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: 2px 2px 4px 1px rgba(16, 19, 29, 0.25);
+  box-shadow: 2px 2px 4px 1px rgba(16, 19, 29, 0.25);
+}
+
+p span {
+  font-weight: bolder;
+}
+
+ul li span {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */
